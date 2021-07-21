@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/light"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:text="LOGOUT"
+        android:id="@+id/logout"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="CONTACT US"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:text="City Hospital Mall Road ,Delhi"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:text="0761-2444821
+                          0761-2556751"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_mail_24"
+            android:drawablePadding="10dp"
+            android:text="cityhospital1232@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
